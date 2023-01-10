@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.hero-background{
+    background-image: url(../Images/pencils\ Background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.herotext{
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 30px;
+flex-direction: column;
+margin: 160px;
+}
+.h1{
+    font-weight: bold;
+    font-size: 80px; 
+}
+.p{
+    font-weight: 200px;
+     font-size: 20px;
+}
+.button1{
+    background-color: rgb(40, 109, 141);
+    border: none;
+    font-weight: normal;
+    width: 140px;
+    height: 60px;
+    color:white;
+    border-radius: 5%;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.menu{
+background-color: grey;
+height: 40px;
+width: 40px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin: 50px;
+}
+
+.mini-menu{
+background-color: white;
+height: 2px;
+width: 18px;
+margin: 1px;
+
+}
+.offersection{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3offer{
+font-size: 30px;
+}
+.p1offer{
+margin-left: 100px;
+
+}
+.button2{
+    background-color:black;
+    border: none;
+    font-weight: normal;
+    width: 140px;
+    height: 60px;
+    color:white;
+    border-radius: 5%;
+    margin-left:350px;
+}
+.services{
+    width: 100%;
+    height: 75vh;
+background-color: rgb(40, 109, 141);
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.services-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+.h4services{
+    font-weight:30px;
+    font-size: 20px; 
+    color: rgba(247,189,0);  
+}
+.h2services{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.iconstext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: white;
+    /* margin-bottom: 40px; */
+}
+.welcome-background{
+    background-image:url(../Images/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h3-welcome{
+font-size: 50px;
+line-height: 50px;
+}
+
+.italic{
+font-style: italic;
+
+}
+.button3{
+    background-color: rgb(40, 109, 141);
+    border: none;
+    font-weight: normal;
+    width: 140px;
+    height: 60px;
+    color:white;
+    border-radius: 5%;
+    margin-left: 130px;
+}
+.portifoliosection{
+width: 100%;
+height: 130vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.h3port{
+    font-weight:30px;
+    font-size: 20px; 
+    color: rgba(247,189,0);     
+}
+.h2port{
+font-size: 30px;
+}
+
+.porttext{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+margin-top: 40px;
+line-height: 40px;
+}
+.portfolio-images{
+display: flex;
+justify-content: center;
+flex-wrap: wrap; 
+}
+.portfolio-text{
+display: flex;
+align-items: center;
+color: white;
+margin-top: 250px;
+flex-direction: column;
+}
+.rect1{
+background-image: url(../Images/img/portfolio-1.jpg);
+width: 500px;
+height: 350px;
+background-position: center;
+background-size: cover;
+
+
+}
+.rect2{
+    background-image: url(../Images/img/portfolio-2.jpg);
+    width: 500px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    
+    }
+    .rect3{
+        background-image: url(../Images/img/portfolio-3.jpg);
+        width: 500px;
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        
+        }
+        .rect4{
+            background-image: url(../Images/img/portfolio-4.jpg);
+            width: 500px;
+            height: 350px;
+            background-position: center;
+            background-size: cover;
+            
+            }
+.buttonsection{
+    width: 100%;
+    height: 60vh;
+background-color: rgb(40, 109, 141);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+line-height: 90px;
+}
+.button4{
+    background-color: white;
+    border: none;
+    font-weight: normal;
+    width: 140px;
+    height: 60px;
+    color:black;
+    border-radius: 5%;
+}
+.button5{
+    background-color:black;
+    border: none;
+    font-weight: normal;
+    width: 140px;
+    height: 60px;
+    color:white;
+    border-radius: 5%;
+}
+.buttontxt{
+font-size: 25px;
+
+}
+.mapsection{
+background-image: url(../Images/Screenshot\ 2022-11-03\ at\ 17.20.40.png);
+width: 100%;
+height: 70vh;
+}
+.footer{
+width: 100%;
+height: 40vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.footericons{
+    display: flex;
+gap: 50px;
+
+}
+.p-footer{
+display: flex;
+margin-top: 50px;
+
+}
+
+
+
+
+
